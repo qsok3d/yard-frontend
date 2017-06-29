@@ -12,7 +12,7 @@ body{
 }
 
 .header__wrapp{
-  margin: 0 auto;
+  margin: 0 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,6 +43,7 @@ body{
 }
 
 .banner__wrapper{
+  margin: 0 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,6 +59,10 @@ body{
 .main{
   margin-top: 64px;
   margin-bottom: 96px;
+}
+
+.main__wrapper{
+  margin: 0 8px;
 }
 
 .main__caption{
@@ -126,7 +131,7 @@ body{
   font-size: 16px;
   line-height: 1.5;
   color: #646971;
-  padding-bottom: 24px;
+  padding-bottom: 26px;
 }
 
 .card__title{
@@ -136,7 +141,7 @@ body{
   font-weight: bold;
   line-height: 1;
   color: #000;
-  padding-bottom: 16px;
+  padding-bottom: 18px;
 }
 
 .card__text{
@@ -153,6 +158,10 @@ body{
 
 .footer{
   background-color: black;
+}
+
+.footer__wrapper{
+  margin: 0 16px;
 }
 
 .footer__details,
