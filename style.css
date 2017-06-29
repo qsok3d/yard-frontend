@@ -11,8 +11,7 @@ body{
   background-color: #fff;
 }
 
-.header__container{
-  width: 1200px;
+.header__wrapp{
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -30,7 +29,7 @@ body{
   font-size: 16px;
   line-height: 1;
   list-style: none;
-  margin: 24px 27px 24px 0;
+  padding-left: 32px;
 }
 
 .header__link:last-child{
@@ -43,7 +42,7 @@ body{
   background-color: #161616;
 }
 
-.banner__container{
+.banner__wrapper{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,32 +56,30 @@ body{
 /*main*/
 
 .main{
-  margin-top: 65px;
+  margin-top: 64px;
   margin-bottom: 96px;
-}
-
-.main__container{
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .main__caption{
   text-align: center;
-  padding: 0 200px;
+  padding: 0 208px;
 }
 
 .main__title{
+  margin: 0;
   font-size: 24px;
+  line-height: 1.5;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: bold;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
 }
 
 .main__text{
+  margin: 0;
   font-size: 16px;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  padding-bottom: 18px;
+  padding-bottom: 16px;
 }
 
 .main__button{
@@ -110,6 +107,10 @@ body{
   margin-bottom: 50px;
 }
 
+.main__card_hover:hover{
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
 .card__pic{
   flex-shrink: 0;
 }
@@ -120,23 +121,26 @@ body{
 }
 
 .card__subtitle{
-  font-family: Monaco, Menlo, Consolas, monospace; 
+  margin: 0;
+  font-family: "Monaco", "Menlo", "Consolas", "monospace"; 
   font-size: 16px;
-  line-height: 1;
+  line-height: 1.5;
   color: #646971;
   padding-bottom: 24px;
 }
 
 .card__title{
+  margin: 0;
   font-size: 40px;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: bold;
-  line-height: 1.4;
+  line-height: 1;
   color: #000;
-  padding-bottom: 9px;
+  padding-bottom: 16px;
 }
 
 .card__text{
+  margin: 0;
   font-size: 16px;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -149,11 +153,6 @@ body{
 
 .footer{
   background-color: black;
-}
-
-.footer__container{
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .footer__details,
@@ -169,6 +168,7 @@ body{
 }
 
 .details__title{
+  margin: 0;
   font-size: 14px;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -178,6 +178,7 @@ body{
 }
 
 .details__text{
+  margin: 0;
   font-size: 14px;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -186,6 +187,7 @@ body{
 }
 
 .details__tel{
+  margin: 0;
   font-size: 14px;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -200,6 +202,7 @@ body{
 
 .products__title,
 .about__title{
+  margin: 0;
   font-size: 14px;
   line-height: 1.5;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -222,11 +225,12 @@ body{
 }
 
 .products__link:last-child{
-  padding-top: 15px;
+  padding-top: 16px;
 }
 
 .products__all{
   font-size: 14px;
+  line-height: 1.5;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   text-decoration: none;
@@ -240,12 +244,13 @@ body{
 }
 
 .footer__text{
+  margin: 0;
   font-size: 11px;
   line-height: 1.5;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-  font-weight: lighter;
+  font-weight: 300;
   color: #a9afb6;
-  padding-top: 102px;
+  padding-top: 98px;
   padding-bottom: 31px;
 }
 
