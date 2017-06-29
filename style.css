@@ -1,8 +1,8 @@
-body{
-  margin: 0 auto;
-  padding: 0;
+.body{
   background: url(img/background.png); 
   background-color: #eaebf0;   
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
 }
 
 /*header*/
@@ -11,7 +11,7 @@ body{
   background-color: #fff;
 }
 
-.header__wrapp{
+.header__wrapper{
   margin: 0 8px;
   display: flex;
   justify-content: space-between;
@@ -36,21 +36,17 @@ body{
   margin-right: 0px;
 }
 
-/*banner*/
+/*logotype*/
 
-.banner{
+.logotype{
   background-color: #161616;
 }
 
-.banner__wrapper{
+.logotype__wrapper{
   margin: 0 8px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.banner__logo{
-  margin: 0 auto;
+.logotype__pic{
   padding: 80px 0;
 }
 
@@ -65,12 +61,12 @@ body{
   margin: 0 8px;
 }
 
-.main__caption{
+.banner__caption{
   text-align: center;
   padding: 0 208px;
 }
 
-.main__title{
+.banner__title{
   margin: 0;
   font-size: 24px;
   line-height: 1.5;
@@ -79,7 +75,7 @@ body{
   padding-bottom: 8px;
 }
 
-.main__text{
+.banner__text{
   margin: 0;
   font-size: 16px;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -87,7 +83,7 @@ body{
   padding-bottom: 16px;
 }
 
-.main__button{
+.banner__button{
   font-size: 16px;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -97,22 +93,22 @@ body{
   border: none;
 }
 
-.main__list{
-  margin-top: 64px;
-}
-
-.main__link{
+.complexe__link{
   text-decoration: none;
 }
 
-.main__card{
+.complexe__card{
   display: flex;
   justify-content: center;
   background-color: #fff;
   margin-bottom: 48px;
 }
 
-.main__card_hover:hover{
+.complexe__card:first-child{
+  margin-top: 64px;
+}
+
+.complexe__card:hover{
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
 }
 
@@ -165,13 +161,13 @@ body{
 }
 
 .footer__details,
-.footer__products,
+.footer__live-complexes,
 .footer__about{
   display: flex;
   flex-direction: column;  
 }
 
-.footer__products,
+.footer__live-complexes,
 .footer__about{
   padding-top: 32px;
 }
@@ -204,12 +200,12 @@ body{
   padding-top: 16px;
 }
 
-.products,
+.live-complexes,
 .about{
   padding-top: 32px;
 }
 
-.products__title,
+.live-complexes__title,
 .about__title{
   margin: 0;
   font-size: 14px;
@@ -221,7 +217,7 @@ body{
   border-top: 2px solid #646971; 
 }
 
-.products__link,
+.live-complexes__link,
 .about__link{
   display: inline-block;
   font-size: 14px;
@@ -233,11 +229,11 @@ body{
   padding-top: 8px;
 }
 
-.products__link:last-child{
+.live-complexes__link:last-child{
   padding-top: 16px;
 }
 
-.products__all{
+.live-complexes__all{
   font-size: 14px;
   line-height: 1.5;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -247,7 +243,7 @@ body{
   padding-top: 16px;    
 }
 
-.products__all::after{
+.live-complexes__all::after{
   content: url(img/combined-shape.png);
   padding-left: 8px;
 }
