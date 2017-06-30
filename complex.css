@@ -8,38 +8,37 @@
 
 .header{
   background-color: #fff;
-  border-bottom: 1px solid #eaebf0;
 }
 
 .header__wrapper{
-  margin: 0 8px;
+  margin: 0 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .header__logo{
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 .header__link{
   text-decoration: none;
   color: #3e4247;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1;
   list-style: none;
-  padding-left: 32px;
+  padding-left: 2rem;
 }
 
 .header__link:last-child{
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 /*title*/
 
 .title__wrapper{
-  margin: 0 8px;
+  margin: 0 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -47,15 +46,15 @@
 
 .name__caption{
   margin: 0;
-  padding-top: 24px;
-  font-size: 32px;
+  padding-top: 1.5rem;
+  font-size: 2rem;
   font-family: "Philosopher", "Menlo", "Consolas", "monospace";
   font-weight: bold;
 }
 
 .name__text{
   margin: 0;
-  padding-top: 8px;
+  padding-top: 0.5rem;
   font-size: 14px;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: 300;
@@ -71,22 +70,8 @@
   color: #00779a;
   padding: 6px 14px;
   border: 1px solid #e0e0e1;
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -102,7 +87,7 @@
 }
 
 .footer__wrapper{
-  margin: 0 16px;
+  margin: 0 1rem;
 }
 
 .footer__details,
@@ -114,83 +99,83 @@
 
 .footer__live-complexes,
 .footer__about{
-  padding-top: 32px;
+  padding-top: 2rem;
 }
 
 .details__title{
   margin: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 1.5;
   color: #646971;
-  padding-top: 34px;
+  padding-top: 2rem;
 }
 
 .details__text{
   margin: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   line-height: 1.5;
   color: #a9afb6;
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .details__tel{
   margin: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   line-height: 1.5;
   color: #a9afb6;
-  padding-top: 16px;
+  padding-top: 1rem;
 }
 
 .live-complexes,
 .about{
-  padding-top: 32px;
+  padding-top: 2rem;
 }
 
 .live-complexes__title,
 .about__title{
   margin: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.5;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #646971;
-  padding-top: 16px;
+  padding-top: 1rem;
   border-top: 2px solid #646971; 
 }
 
 .live-complexes__link,
 .about__link{
   display: inline-block;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.5;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   text-decoration: none;
   color: #a9afb6;
-  padding-top: 8px;
+  padding-top: 0.5rem;
 }
 
 .live-complexes__link:last-child{
-  padding-top: 16px;
+  padding-top: 1rem;
 }
 
 .live-complexes__all{
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.5;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   text-decoration: none;
   color: #a9afb6;
-  padding-top: 16px;    
+  padding-top: 1rem;    
 }
 
 .live-complexes__all::after{
   content: url(img/combined-shape.png);
-  padding-left: 8px;
+  padding-left: 0.5rem;
 }
 
 .footer__text{
@@ -200,6 +185,6 @@
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: 300;
   color: #a9afb6;
-  padding-top: 98px;
+  padding-top: 6.125rem;
   padding-bottom: 31px;
 }
