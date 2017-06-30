@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700,900">
   <title>COMPASS DEVELOPMENT</title>
 </head>
-<body>
+<body class="body">
   <header class="header">
     <div class="container">
-      <div class="header__wrapp">
+      <div class="header__wrapper">
         <img src="img/compass-logo.png" alt="" class="header__logo" width="180" height="24">
         <nav class="header__menu">
           <a href="#" class="header__link">Купить</a>
@@ -22,24 +22,27 @@
       </div>
     </div>
   </header>
-  <section class="banner">
+  <section class="logotype">
     <div class="container">
-      <div class="banner__wrapper">
-        <img src="img/compass-development-logo.png" alt="" class="banner__logo" width="420" height="130">
-      </div>
+      <div class="logotype__wrapper">
+        <div class="row center-xs">
+          <div class="col-xs-6">
+            <img src="img/compass-development-logo.png" alt="" class="logotype__pic" width="420" height="130">
+          </div>
+        </div>
+      </div> 
     </div>
   </section>
   <main class="main">
     <div class="container">
       <div class="main__wrapper">
-        <div class="main__caption">
-          <h2 class="main__title">Discover Our New Developments</h2>
-          <p class="main__text">Compass brings a modern approach to new development marketing and sales. From boutique rental conversions to luxurious ground-up condominiums, browse our portfolio of current offerings.</p>
-          <button class="main__button">Contact The Team</button>
+        <div class="banner__caption">
+          <h2 class="banner__title">Discover Our New Developments</h2>
+          <p class="banner__text">Compass brings a modern approach to new development marketing and sales. From boutique rental conversions to luxurious ground-up condominiums, browse our portfolio of current offerings.</p>
+          <button class="banner__button">Contact The Team</button>
         </div>
-        <nav class="main__list">
-          <a href="#" class="main__link">
-            <div class="main__card">
+          <a href="#" class="complexe__link">
+            <div class="complexe__card">
               <img src="img/bitmap.png" alt="" class="card__pic" width="490" height="350">
               <span class="card__info">
                 <p class="card__subtitle">SOUTH BEACH, SAN FRANCISCO</p>
@@ -48,8 +51,8 @@
               </span>
             </div>
           </a>
-          <a href="#" class="main__link">
-            <div class="main__card main__card_hover">
+          <a href="#" class="complexe__link">
+            <div class="complexe__card">
               <img src="img/bitmap.png" alt="" class="card__pic" width="490" height="350">
               <span class="card__info">
                 <p class="card__subtitle">MIDTOWN EAST, MANHATTAN</p>
@@ -58,8 +61,8 @@
               </span>
             </div>
           </a>
-          <a href="#" class="main__link">
-            <div class="main__card">
+          <a href="#" class="complexe__link">
+            <div class="complexe__card">
               <img src="img/bitmap.png" alt="" class="card__pic" width="490" height="350">
               <span class="card__info">
                 <p class="card__subtitle">NOLITA, MANHATTAN</p>
@@ -68,7 +71,7 @@
               </span>
             </div>
           </a>
-        </nav>
+        </div>
       </div>
     </div>
   </main>
@@ -77,28 +80,28 @@
       <div class="footer__wrapper">
         <div class="row">
           <div class="col-xs-4">
-            <nav class="footer__details">
+            <div class="footer__details">
               <h4 class="details__title">ООО «Ярд»</h4>
               <p class="details__text">ОГРН 1175074002531</p>
               <p class="details__text">ИНН 5036165365</p>
               <p class="details__tel">+7 (999) 821-14-88</p>
-            </nav>
+            </div>
           </div>
           <div class="col-xs-2">
-            <nav class="footer__products">
-              <h4 class="products__title">Жилые комплексы</h4>
-              <a href="" class="products__link">ВТБ Арена Парк</a>
-              <a href="" class="products__link">Садовые кварталы</a>
-              <a href="" class="products__link">Резиденция Монэ</a>
-              <a href="" class="products__all">Все ЖК Москвы</a>
-            </nav>
+            <div class="footer__live-complexes">
+              <h4 class="live-complexes__title">Жилые комплексы</h4>
+              <a href="" class="live-complexes__link">ВТБ Арена Парк</a>
+              <a href="" class="live-complexes__link">Садовые кварталы</a>
+              <a href="" class="live-complexes__link">Резиденция Монэ</a>
+              <a href="" class="live-complexes__all">Все ЖК Москвы</a>
+            </div>
           </div>
           <div class="col-xs-2">
-            <nav class="footer__about">
+            <div class="footer__about">
               <h4 class="about__title">Компания</h4>
               <a href="" class="about__link">Команда</a>
               <a href="" class="about__link">О компании</a>
-            </nav>
+            </div>
           </div>
           <div class="col-xs-8 col-xs-offset-4">
             <p class="footer__text">
