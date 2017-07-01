@@ -85,7 +85,7 @@
   border: none;
 }
 
-.complexes__link{
+.complexe__link{
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -93,20 +93,24 @@
   margin-bottom: 3rem;
 }
 
-.complexes__link:hover{
+.complexe__card__pic{
+  width: 490px;
+}
+
+.complexe__link:hover{
   box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, 0.3);
 }
 
-.complexes__card__pic{
+.complexe__card__pic{
   flex-shrink: 0;
 }
 
-.complexes__card__info{
+.complexe__card__info{
   padding-top: 1.5rem;
   padding-left: 2rem;
 }
 
-.card__info__disctrict{
+.complexe__card__info__disctrict{
   margin: 0;
   font-family: "Monaco", "Menlo", "Consolas", "monospace"; 
   font-size: 1rem;
@@ -115,7 +119,7 @@
   padding-bottom: 1.625rem;
 }
 
-.card__info__title{
+.complexe__card__info__title{
   margin: 0;
   font-size: 2.5rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -125,7 +129,7 @@
   padding-bottom: 1.125rem;
 }
 
-.card__info__description{
+.complexe__card__info__description{
   margin: 0;
   font-size: 1rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
