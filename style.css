@@ -22,7 +22,7 @@
   padding: 1.25rem 0;
 }
 
-.header__link{
+.header__nav__link{
   text-decoration: none;
   color: #3e4247;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -32,7 +32,7 @@
   padding-left: 2rem;
 }
 
-.header__link:last-child{
+.header__nav__link:last-child{
   margin-right: 0;
 }
 
@@ -50,24 +50,24 @@
   padding: 5rem 0;
 }
 
-/*main*/
+/*content*/
 
-.main{
+.content{
   margin-top: 4rem;
   margin-bottom: 6rem;
 }
 
-.main__wrapper{
+.content__wrapper{
   margin: 0 0.5rem;
 }
 
-.banner__caption{
+.content__banner__caption{
   text-align: center;
   padding: 0 13rem;
   margin-bottom: 4rem;
 }
 
-.banner__title{
+.content__banner__title{
   margin: 0;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -76,7 +76,7 @@
   padding-bottom: 0.5rem;
 }
 
-.banner__text{
+.content__banner__text{
   margin: 0;
   font-size: 1rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -84,7 +84,7 @@
   padding-bottom: 1rem;
 }
 
-.banner__button{
+.content__banner__button{
   font-size: 1rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -94,31 +94,31 @@
   border: none;
 }
 
-.complexe__link{
+.content__complexe__link{
   text-decoration: none;
 }
 
-.complexe__card{
+.content__complexe__card{
   display: flex;
   justify-content: center;
   background-color: #fff;
   margin-bottom: 3rem;
 }
 
-.complexe__card:hover{
+.content__complexe__card:hover{
   box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, 0.3);
 }
 
-.card__pic{
+.complexe__card__pic{
   flex-shrink: 0;
 }
 
-.card__info{
+.complexe__card__info{
   padding-top: 1.5rem;
   padding-left: 2rem;
 }
 
-.card__subtitle{
+.complexe__rd__subtitle{
   margin: 0;
   font-family: "Monaco", "Menlo", "Consolas", "monospace"; 
   font-size: 1rem;
@@ -127,7 +127,7 @@
   padding-bottom: 1.625rem;
 }
 
-.card__title{
+.complexe__card__title{
   margin: 0;
   font-size: 2.5rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -137,7 +137,7 @@
   padding-bottom: 1.125rem;
 }
 
-.card__text{
+.complexe__card__text{
   margin: 0;
   font-size: 1rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -157,19 +157,19 @@
   margin: 0 1rem;
 }
 
-.footer__details,
-.footer__live-complexes,
+.footer__info,
+.footer__complexes,
 .footer__about{
   display: flex;
   flex-direction: column;  
 }
 
-.footer__live-complexes,
+.footer__complexes,
 .footer__about{
   padding-top: 2rem;
 }
 
-.details__title{
+.footer__info__title{
   margin: 0;
   font-size: 0.875rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -179,7 +179,7 @@
   padding-top: 2rem;
 }
 
-.details__text{
+.footer__info__text{
   margin: 0;
   font-size: 0.875rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -188,7 +188,7 @@
   padding-top: 0.5rem;
 }
 
-.details__tel{
+.footer__info__tel{
   margin: 0;
   font-size: 0.875rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -197,13 +197,13 @@
   padding-top: 1rem;
 }
 
-.live-complexes,
-.about{
+.footer__complexes,
+.footer__about{
   padding-top: 2rem;
 }
 
-.live-complexes__title,
-.about__title{
+.footer__complexes__title,
+.footer__about__title{
   margin: 0;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -214,8 +214,8 @@
   border-top: 2px solid #646971; 
 }
 
-.live-complexes__link,
-.about__link{
+.footer__complexes__link,
+.footer__about__link{
   display: inline-block;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -226,11 +226,11 @@
   padding-top: 0.5rem;
 }
 
-.live-complexes__link:last-child{
+.footer__complexes__link:last-child{
   padding-top: 1rem;
 }
 
-.live-complexes__all{
+.footer__complexes__link:last-child{
   font-size: 0.875rem;
   line-height: 1.5;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -240,7 +240,7 @@
   padding-top: 1rem;    
 }
 
-.live-complexes__all::after{
+.footer__complexes__link:last-child:after{
   content: url(img/combined-shape.png);
   padding-left: 0.5rem;
 }
