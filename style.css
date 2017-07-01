@@ -12,7 +12,6 @@
 }
 
 .header__wrapper{
-  margin: 0 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,8 +19,8 @@
 
 .header__logo{
   padding: 1.25rem 0;
+  height: 24px;
 }
-
 .header__nav__link{
   text-decoration: none;
   color: #3e4247;
@@ -42,10 +41,6 @@
   background-color: #161616;
 }
 
-.logotype__wrapper{
-  margin: 0 0.5rem;
-}
-
 .logotype__pic{
   padding: 5rem 0;
 }
@@ -57,17 +52,13 @@
   margin-bottom: 6rem;
 }
 
-.content__wrapper{
-  margin: 0 0.5rem;
-}
-
-.content__banner__caption{
+.banner__caption{
   text-align: center;
   padding: 0 13rem;
   margin-bottom: 4rem;
 }
 
-.content__banner__title{
+.banner__title{
   margin: 0;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -76,7 +67,7 @@
   padding-bottom: 0.5rem;
 }
 
-.content__banner__text{
+.banner__text{
   margin: 0;
   font-size: 1rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -84,7 +75,7 @@
   padding-bottom: 1rem;
 }
 
-.content__banner__button{
+.banner__button{
   font-size: 1rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   line-height: 1;
@@ -94,31 +85,28 @@
   border: none;
 }
 
-.content__complexe__link{
+.complexes__link{
   text-decoration: none;
-}
-
-.content__complexe__card{
   display: flex;
   justify-content: center;
   background-color: #fff;
   margin-bottom: 3rem;
 }
 
-.content__complexe__card:hover{
+.complexes__link:hover{
   box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, 0.3);
 }
 
-.complexe__card__pic{
+.complexes__card__pic{
   flex-shrink: 0;
 }
 
-.complexe__card__info{
+.complexes__card__info{
   padding-top: 1.5rem;
   padding-left: 2rem;
 }
 
-.complexe__rd__subtitle{
+.card__info__disctrict{
   margin: 0;
   font-family: "Monaco", "Menlo", "Consolas", "monospace"; 
   font-size: 1rem;
@@ -127,7 +115,7 @@
   padding-bottom: 1.625rem;
 }
 
-.complexe__card__title{
+.card__info__title{
   margin: 0;
   font-size: 2.5rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -137,7 +125,7 @@
   padding-bottom: 1.125rem;
 }
 
-.complexe__card__text{
+.card__info__description{
   margin: 0;
   font-size: 1rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -153,19 +141,13 @@
   background-color: black;
 }
 
-.footer__wrapper{
-  margin: 0 1rem;
-}
-
 .footer__info,
-.footer__complexes,
-.footer__about{
+.footer__nav{
   display: flex;
   flex-direction: column;  
 }
 
-.footer__complexes,
-.footer__about{
+.footer__nav{
   padding-top: 2rem;
 }
 
@@ -197,13 +179,11 @@
   padding-top: 1rem;
 }
 
-.footer__complexes,
-.footer__about{
+.footer__nav{
   padding-top: 2rem;
 }
 
-.footer__complexes__title,
-.footer__about__title{
+.footer__nav__title{
   margin: 0;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -214,8 +194,7 @@
   border-top: 2px solid #646971; 
 }
 
-.footer__complexes__link,
-.footer__about__link{
+.footer__nav__link{
   display: inline-block;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -225,12 +204,11 @@
   color: #a9afb6;
   padding-top: 0.5rem;
 }
-
-.footer__complexes__link:last-child{
+.footer__nav__link:last-child{
   padding-top: 1rem;
 }
 
-.footer__complexes__link:last-child{
+.footer__nav__link:last-child{
   font-size: 0.875rem;
   line-height: 1.5;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
@@ -238,11 +216,6 @@
   text-decoration: none;
   color: #a9afb6;
   padding-top: 1rem;    
-}
-
-.footer__complexes__link:last-child:after{
-  content: url(img/combined-shape.png);
-  padding-left: 0.5rem;
 }
 
 .footer__text{
