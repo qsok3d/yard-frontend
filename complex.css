@@ -11,7 +11,6 @@
 }
 
 .header__wrapper{
-  margin: 0 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,6 +18,7 @@
 
 .header__logo{
   padding: 1.25rem 0;
+  height: 24px;
 }
 
 .header__nav__link{
@@ -42,7 +42,6 @@
 }
 
 .complex__title__wrapper{
-  margin: 0 1rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -53,7 +52,7 @@
   padding-top: 1.5rem;
   font-size: 2rem;
   font-family: "Philosopher", "Menlo", "Consolas", "monospace";
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .complex__name__text{
@@ -89,6 +88,10 @@
   justify-content: center;
 }
 
+.complex__gallery__pic{
+  height: 40px;
+}
+
 .complex__gallery__button{
   position: absolute;
   color: #fff;
@@ -108,7 +111,6 @@
 }
 
 .complex__info__wrapper{
-  margin: 0 1rem;
   display: flex;
   border-bottom: 3px solid #e0e0e1;
 }
@@ -136,10 +138,6 @@
 }
 
 /*complex__details*/
-
-.complex__details__wrapper{
-  margin: 0 1rem;
-}
 
 .complex__details__title{
   margin: 0;
@@ -173,7 +171,6 @@
 /*declaration*/
 
 .complex__declaration__wrapper{
-  margin: 0 1rem;
   margin-top: 2rem;
   border-bottom: 3px solid #e0e0e1;
 }
@@ -201,11 +198,6 @@
 
 /*structure*/
 
-.complex__structure__wrapper{
-  margin: 0 1rem;
-  margin-bottom: 4rem;
-}
-
 .complex__structure__title{
   margin: 0;
   margin-top: 2rem;
@@ -224,16 +216,13 @@
 
 .complex__structure__item:last-child{
   padding-top: 1rem;
+  padding-bottom: 4rem;
 }
 
 /*offers*/
 
 .complex__offers{
   background-color: #f4f5f9;
-}
-
-.complex__offers__wrapper{
-  margin: 0 1rem;
 }
 
 .complex__offers__title{
@@ -288,10 +277,10 @@
   color: #fff;
   background-color: #000000;
   font-size: 1rem;
-  padding: 0.75rem 2.1rem;
+  padding: 0.75rem 2rem;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   margin-bottom: 1.5rem;
-  margin-left: 1.4rem;
+  margin-left: 2rem;
 }
 
 /*Landmark*/
@@ -300,10 +289,6 @@
   background-color: #3e4247;
   margin-bottom: 13.5rem;
   padding-bottom: 13.5rem;
-}
-
-.complex__landmark__wrapper{
-  margin: 0 1rem;
 }
 
 .complex__landmark__pic{
@@ -336,10 +321,15 @@
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
 }
 
+.complex__landmark__pic{
+  height: 560px;
+}
+
 .complex__landmark__map{
   position: absolute;
   margin: 4rem 0;
   box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, 0.3);
+  height: 306px;
 }
 
 .complex__landmark__near{
@@ -383,19 +373,13 @@
   background-color: black;
 }
 
-.footer__wrapper{
-  margin: 0 1rem;
-}
-
 .footer__info,
-.footer__complexes,
-.footer__about{
+.footer__nav{
   display: flex;
   flex-direction: column;  
 }
 
-.footer__complexes,
-.footer__about{
+.footer__nav{
   padding-top: 2rem;
 }
 
@@ -427,13 +411,11 @@
   padding-top: 1rem;
 }
 
-.footer__complexes,
-.footer__about{
+.footer__nav{
   padding-top: 2rem;
 }
 
-.footer__complexes__title,
-.footer__about__title{
+.footer__nav__title{
   margin: 0;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -444,35 +426,24 @@
   border-top: 2px solid #646971; 
 }
 
-.footer__complexes__link,
-.footer__about__link{
-  display: inline-block;
+.footer__nav__link{
   font-size: 0.875rem;
   line-height: 1.5;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   text-decoration: none;
-  color: #a9afb6;
+  color: #fff;
   padding-top: 0.5rem;
 }
 
-.footer__complexes__link:last-child{
-  padding-top: 1rem;
-}
-
-.footer__complexes__link:last-child{
+.footer__nav__link__last{
   font-size: 0.875rem;
   line-height: 1.5;
   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   text-decoration: none;
-  color: #a9afb6;
+  color: #fff;
   padding-top: 1rem;    
-}
-
-.footer__complexes__link:last-child:after{
-  content: url(img/combined-shape.png);
-  padding-left: 0.5rem;
 }
 
 .footer__text{
