@@ -123,10 +123,6 @@
   font-family: "Philosopher", "Menlo", "Consolas", "monospace";
 }
 
-.complex__info__title:nth-child(2){
-  margin-right: 4.5rem;
-}
-
 .complex__info__text{
   display: block;
   font-size: 14px;
