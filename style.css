@@ -1,9 +1,12 @@
-/*header*/
 body{
+   background: url(img/background.png); 
+   background-color: #eaebf0;   
    text-rendering: optimizeLegibility !important;
    -webkit-font-smoothing: antialiased;
  }
-
+ 
+ /*header*/
+ 
  .header{
    background-color: #fff;
  }
@@ -31,8 +34,8 @@ body{
  .header__nav__link:last-child{
    margin-right: 0;
  }
-
-  /*logotype*/
+ 
+ /*logotype*/
  
  .logotype{
    background-color: #161616;
@@ -135,9 +138,9 @@ body{
    padding-right: 5.25rem;
  }
  
-
-/*footer*/
-
+ 
+ /*footer*/
+ 
  .footer{
    background-color: black;
  }

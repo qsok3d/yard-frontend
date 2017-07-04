@@ -1,5 +1,6 @@
 .body{ 
-  background-color: #fff;   
+  background: none;
+  background-color: #fff;  
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
 }
