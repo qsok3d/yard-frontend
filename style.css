@@ -1,122 +1,234 @@
-/*header*/
-
-.header{
-  background-color: #fff;
-}
-
-.header__wrapper{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header__logo{
-  padding: 1.25rem 0;
-  height: 24px;
-}
-.header__nav__link{
-  text-decoration: none;
-  color: #3e4247;
-  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  line-height: 1;
-  list-style: none;
-  padding-left: 2rem;
-}
-
-.header__nav__link:last-child{
-  margin-right: 0;
-}
-
-
-
-
-/*footer*/
-
-.footer{
-  background-color: black;
-}
-
-.footer__info,
-.footer__nav{
-  display: flex;
-  flex-direction: column;  
-}
-
-.footer__nav{
-  padding-top: 2rem;
-}
-
-.footer__info__title{
-  margin: 0;
-  font-size: 0.875rem;
-  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  line-height: 1.5;
-  color: #646971;
-  padding-top: 2rem;
-}
-
-.footer__info__text{
-  margin: 0;
-  font-size: 0.875rem;
-  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  color: #a9afb6;
-  padding-top: 0.5rem;
-}
-
-.footer__info__tel{
-  margin: 0;
-  font-size: 0.875rem;
-  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  color: #a9afb6;
-  padding-top: 1rem;
-}
-
-.footer__nav{
-  padding-top: 2rem;
-}
-
-.footer__nav__title{
-  margin: 0;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  color: #646971;
-  padding-top: 1rem;
-  border-top: 2px solid #646971; 
-}
-
-.footer__nav__link{
-  font-size: 0.875rem;
-  line-height: 1.5;
-  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-  text-decoration: none;
-  color: #fff;
-  padding-top: 0.5rem;
-}
-
-.footer__nav__link__last{
-  font-size: 0.875rem;
-  line-height: 1.5;
-  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-  text-decoration: none;
-  color: #fff;
-  padding-top: 1rem;    
-}
-
-.footer__text{
-  margin: 0;
-  font-size: 11px;
-  line-height: 1.5;
-  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  color: #a9afb6;
-  padding-top: 6.125rem;
-  padding-bottom: 31px;
-}
+body{
+   background: url(img/background.png); 
+   background-color: #eaebf0;   
+   text-rendering: optimizeLegibility !important;
+   -webkit-font-smoothing: antialiased;
+ }
+ 
+ /*header*/
+ 
+ .header{
+   background-color: #fff;
+ }
+ 
+ .header__wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .header__logo{
+   padding: 1.25rem 0;
+   height: 24px;
+ }
+ .header__nav__link{
+   text-decoration: none;
+   color: #3e4247;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   font-size: 1rem;
+   line-height: 1;
+   list-style: none;
+   padding-left: 2rem;
+ }
+ 
+ .header__nav__link:last-child{
+   margin-right: 0;
+ }
+ 
+ /*logotype*/
+ 
+ .logotype{
+   background-color: #161616;
+ }
+ 
+ .logotype__pic{
+   padding: 5rem 0;
+ }
+ 
+ /*content*/
+ 
+ .content{
+   margin-top: 4rem;
+   margin-bottom: 6rem;
+ }
+ 
+ .banner__caption{
+   text-align: center;
+   padding: 0 13rem;
+   margin-bottom: 4rem;
+ }
+ 
+ .banner__title{
+   margin: 0;
+   font-size: 1.5rem;
+   line-height: 1.5;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   padding-bottom: 0.5rem;
+ }
+ 
+ .banner__text{
+   margin: 0;
+   font-size: 1rem;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   line-height: 1.5;
+   padding-bottom: 1rem;
+ }
+ 
+ .banner__button{
+   font-size: 1rem;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   line-height: 1;
+   color: #fff;
+   background-color: black;
+   padding: 0.75rem 2rem;
+   border: none;
+ }
+ 
+ .complex__link{
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   background-color: #fff;
+   margin-bottom: 3rem;
+ }
+ 
+ .complex__card__pic{
+   width: 490px;
+ }
+ 
+ .complex__link:hover{
+   box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, 0.3);
+ }
+ 
+ .complex__card__pic{
+   flex-shrink: 0;
+ }
+ 
+ .complex__card__info{
+   padding-top: 1.5rem;
+   padding-left: 2rem;
+ }
+ 
+ .complex__card__info__disctrict{
+   margin: 0;
+   font-family: "Monaco", "Menlo", "Consolas", "monospace"; 
+   font-size: 1rem;
+   line-height: 1.5;
+   color: #646971;
+   padding-bottom: 1.625rem;
+ }
+ 
+ .complex__card__info__title{
+   margin: 0;
+   font-size: 2.5rem;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   line-height: 1;
+   color: #000;
+   padding-bottom: 1.125rem;
+ }
+ 
+ .complex__card__info__description{
+   margin: 0;
+   font-size: 1rem;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   line-height: 1.5;
+   color: #3e4247;
+   padding-right: 5.25rem;
+ }
+ 
+ 
+ /*footer*/
+ 
+ .footer{
+   background-color: black;
+ }
+ 
+ .footer__info,
+ .footer__nav{
+   display: flex;
+   flex-direction: column;  
+ }
+ 
+ .footer__nav{
+   padding-top: 2rem;
+ }
+ 
+ .footer__info__title{
+   margin: 0;
+   font-size: 0.875rem;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   line-height: 1.5;
+   color: #646971;
+   padding-top: 2rem;
+ }
+ 
+ .footer__info__text{
+   margin: 0;
+   font-size: 0.875rem;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   line-height: 1.5;
+   color: #a9afb6;
+   padding-top: 0.5rem;
+ }
+ 
+ .footer__info__tel{
+   margin: 0;
+   font-size: 0.875rem;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   line-height: 1.5;
+   color: #a9afb6;
+   padding-top: 1rem;
+ }
+ 
+ .footer__nav{
+   padding-top: 2rem;
+ }
+ 
+ .footer__nav__title{
+   margin: 0;
+   font-size: 0.875rem;
+   line-height: 1.5;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color: #646971;
+   padding-top: 1rem;
+   border-top: 2px solid #646971; 
+ }
+ 
+ .footer__nav__link{
+   display: inline-block;
+   font-size: 0.875rem;
+   line-height: 1.5;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+   text-decoration: none;
+   color: #a9afb6;
+   padding-top: 0.5rem;
+ }
+ .footer__nav__link:last-child{
+   padding-top: 1rem;
+ }
+ 
+ .footer__nav__link:last-child{
+   font-size: 0.875rem;
+   line-height: 1.5;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+   text-decoration: none;
+   color: #a9afb6;
+   padding-top: 1rem;    
+ }
+ 
+ .footer__text{
+   margin: 0;
+   font-size: 11px;
+   line-height: 1.5;
+   font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+   font-weight: 300;
+   color: #a9afb6;
+   padding-top: 6.125rem;
+   padding-bottom: 31px;
+ }
